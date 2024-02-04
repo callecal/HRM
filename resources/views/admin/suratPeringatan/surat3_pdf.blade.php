@@ -120,7 +120,6 @@
             display: table;
             clear: both;
         }
-
     </style>
 </head>
 
@@ -171,7 +170,7 @@
         <div class="isi-surat">
             <div class="pembuka">
                 <p>
-                    Bersama dengan surat ini kami, Refactory Yogyakarta menyampaikan Surat Peringatan III terkait
+                    Bersama dengan surat ini kami, CV. Victory Inti Sejati menyampaikan Surat Peringatan III terkait
                     perihal Surat Peringatan I dan Surat Peringatan II</p>
             </div>
             <div class="pemberitahuan">
@@ -181,15 +180,15 @@
                 </p>
                 <p>
                     Kesan kami terhadap @if ($pegawai->jk != 'Wanita')
-                        {{ 'Saudara ' . $pegawai->nama }}@else{{ 'Saudari' . $pegawai->nama }}@endif . Anda seorang Pegawai yang baik selama bekerja di Refactory Yogyakarta, dalam hal
-                    ini kami ingin memberikan contoh yang nyata bagi semua Pegawai Refactory supaya dapat mengemban
+                    {{ 'Saudara ' . $pegawai->nama }}@else{{ 'Saudari' . $pegawai->nama }}@endif . Anda seorang Pegawai yang baik selama bekerja di CV. Victory Inti Sejati, dalam hal
+                    ini kami ingin memberikan contoh yang nyata bagi semua Pegawai CV. Victory Inti Sejati supaya dapat mengemban
                     tanggung jawab dan menerapkan kedisiplinan dengan lebih baik lagi.
                 </p>
             </div>
 
             <div class="penutup">
                 <p>
-                    Demikian Surat Peringatan III ini dan pemberhentian hubungan kerja ini. Kami dari pihak Refactory
+                    Demikian Surat Peringatan III ini dan pemberhentian hubungan kerja ini. Kami dari pihak CV. Victory Inti Sejati
                     mengucapkan terima kasih sudah bergabung dengan kami Selama Ini.
                 </p>
             </div>

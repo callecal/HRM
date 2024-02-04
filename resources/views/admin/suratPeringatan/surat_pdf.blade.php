@@ -121,7 +121,6 @@
             display: table;
             clear: both;
         }
-
     </style>
 </head>
 
@@ -174,12 +173,12 @@
                 <p>
                     Sehubungan dengan kinerja
                     @if ($pegawai->jk != 'Wanita')
-                        {{ 'Saudara' }}@else{{ 'Saudari' }}@endif
+                    {{ 'Saudara' }}@else{{ 'Saudari' }}@endif
                     sebagai karyawan yang harus mematuhi dan melaksanakan semua kewajiban
                     dan tata tertib serta disiplin dalam bekerja yang harus @if ($pegawai->jk != 'Wanita')
-                        {{ 'Saudara' }}@else{{ 'Saudari' }}@endif laksanakan sepenuhnya.
+                    {{ 'Saudara' }}@else{{ 'Saudari' }}@endif laksanakan sepenuhnya.
                     Maka, dengan ini Kami memberikan peringatan kepada @if ($pegawai->jk != 'Wanita')
-                        {{ 'Saudara' }}@else{{ 'Saudari' }}@endif atas tindakan
+                    {{ 'Saudara' }}@else{{ 'Saudari' }}@endif atas tindakan
                     penyimpangan yang tidak dilaksanakan sebagaimana mestinya seperti yang kami sebutkan berikut ini
                     :
                 </p>
@@ -187,14 +186,14 @@
             <div class="list-pelanggaran">
                 <ol>
                     @foreach ($pelanggaran as $p)
-                        <li>{{ $p }}</li>
+                    <li>{{ $p }}</li>
                     @endforeach
                 </ol>
             </div>
 
             <div class="penutup">
                 <p>
-                    Demikian surat ini Kami sampaikan dan berlaku selama menjadi pegawai Refactory Yogyakarta, kepada
+                    Demikian surat ini Kami sampaikan dan berlaku selama menjadi pegawai CV. Victory Inti Sejati, kepada
                     yang bersangkutkan harap diperhatikan dan diperbaiki dengan segera. Apabila yang bersangkutan tidak
                     mengindahkan Surat Peringatan 1 ini, Maka kami akan menindaklanjuti dengan pemberian <b>Surat
                         Peringatan II.</b>

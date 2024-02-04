@@ -121,7 +121,6 @@
             display: table;
             clear: both;
         }
-
     </style>
 </head>
 
@@ -174,12 +173,12 @@
                 <p>
                     Sehubungan dengan kinerja
                     @if ($pegawai->jk != 'Wanita')
-                        {{ 'Saudara' }}@else{{ 'Saudari' }}@endif
+                    {{ 'Saudara' }}@else{{ 'Saudari' }}@endif
                     sebagai karyawan yang harus mematuhi dan melaksanakan semua kewajiban
                     dan tata tertib serta disiplin dalam bekerja yang harus @if ($pegawai->jk != 'Wanita')
-                        {{ 'Saudara' }}@else{{ 'Saudari' }}@endif laksanakan sepenuhnya.
+                    {{ 'Saudara' }}@else{{ 'Saudari' }}@endif laksanakan sepenuhnya.
                     Maka, dengan ini Kami memberikan peringatan kepada @if ($pegawai->jk != 'Wanita')
-                        {{ 'Saudara' }}@else{{ 'Saudari' }}@endif atas tindakan
+                    {{ 'Saudara' }}@else{{ 'Saudari' }}@endif atas tindakan
                     penyimpangan yang tidak dilaksanakan sebagaimana mestinya seperti yang kami sebutkan berikut ini
                     :
                 </p>
@@ -187,7 +186,7 @@
             <div class="list-pelanggaran">
                 <ol>
                     @foreach ($pelanggaran as $p)
-                        <li>{{ $p }}</li>
+                    <li>{{ $p }}</li>
                     @endforeach
                 </ol>
             </div>
@@ -196,7 +195,7 @@
                 <p>
                     Mengingat yang bersangkutan sudah pernah mendapatkan Surat Peringatan I, untuk itu apabila yang
                     bersangkutan tidak segera mengindahkan Surat Peringatan II ini dengan memperbaiki kinerjanya, <b>
-                        maka Refactory Yogyakarta akan segera mengeluarkan Surat Peringatan III. </b>
+                        maka CV. Victory Inti Sejati akan segera mengeluarkan Surat Peringatan III. </b>
                 </p>
             </div>
         </div>

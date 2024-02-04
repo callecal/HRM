@@ -1,6 +1,6 @@
-APP_NAME=SIPEGAWAI
+APP_NAME=Laravel
 APP_ENV=local
-APP_KEY=base64:7/kunXuxsqXEA4JqitGSSmHTpIwxGJoWLPvur762haI=
+APP_KEY=base64:/Ew5Xu4+/ivVR5VWr44iPYLbICZlYZOgLTpWmNNOeL4=
 APP_DEBUG=true
 APP_URL=http://localhost
 
@@ -10,7 +10,7 @@ LOG_LEVEL=debug
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=laravel_sipegawai
+DB_DATABASE=db_pegawai
 DB_USERNAME=root
 DB_PASSWORD=
 
@@ -27,13 +27,13 @@ REDIS_PASSWORD=null
 REDIS_PORT=6379
 
 MAIL_DRIVER=smtp
+MAIL_FROM_ADDRESS=noreply@domain.com
+MAIL_FROM_NAME="CV Victory Inti Sejati"
 MAIL_HOST=smtp.gmail.com
 MAIL_PORT=587
-MAIL_USERNAME=emailkantor@gmail.com
-MAIL_PASSWORD=passwordemailkantor
+MAIL_USERNAME=rezarseptiann@gmail.com
+MAIL_PASSWORD=lxemchhdjgahledd
 MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=noreply@sipegawai.com
-MAIL_FROM_NAME="${APP_NAME}"
 
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
